@@ -29,7 +29,7 @@ for i,obj in enumerate(Data):
 i2=0
 AuthorBytes=[]
 Authors=[]
-
+startread=i
 for i in range(startread,len(Data)):
     if debug:
         print(hex(Data[i]))
@@ -55,6 +55,9 @@ for i in range(startread,len(Data)):
 
 
 print("Authors")
-for i,obj in enumerate(Authors):
-    print("-"+obj)
+if Authors==[]:
+    print("No Authors found")
+else:
+    for i,obj in enumerate(Authors):
+        print("-"+obj)
 
