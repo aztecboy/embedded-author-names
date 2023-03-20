@@ -4,11 +4,11 @@
 
 ## Signature
 
-	The signature is 3 bytes 0x41,0x52 and 0x4c. 
+The signature is 3 bytes 0x41,0x52 and 0x4c. 
 
 ## Format
 
-	The first 3 bytes is the signature, then followed by the Names. Each name has to be 8 bytes(64 bits), There
+The first 3 bytes is the signature, then followed by the Names. Each name has to be 8 bytes(64 bits), There
 is no seperator between names. The names are ended by a null byte. The author names should be in the data segment
 of the file, however they dont have to.
 
