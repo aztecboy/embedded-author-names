@@ -1,0 +1,9 @@
+
+
+
+1. nasm -f elf64 test.asm 
+
+2. ld test.o -o test
+
+
+
